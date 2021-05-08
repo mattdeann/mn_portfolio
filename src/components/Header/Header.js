@@ -4,10 +4,11 @@ import './Header.css';
 export default function Header() {
   return (
     <header>
-      <section>
-        <p>About</p>
-        <p>Projects</p>
-        <p>Contact</p>
+      <h1>
+        Molly Newton Interiors? Designs? 
+      </h1>
+      <section className="taglines">
+        <p className="button">Nice Rooms</p>
       </section>
     </header>
   )
