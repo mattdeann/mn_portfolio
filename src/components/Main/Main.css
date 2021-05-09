@@ -1,3 +1,25 @@
 main {
-  border: 1px solid maroon;
+  background-color: #EDE4DD;
+  height: 50vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.copy {
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 1.8;
+  padding: 60px;
+}
+
+.project-picture {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://www.studioilse.com/wp-content/uploads/2020/03/LIT_2554-1.jpg");
+  margin: 30px;
+  border-radius: 30px;
+  object-fit: contain;
 }
