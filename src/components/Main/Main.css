@@ -1,6 +1,13 @@
 main {
   background-color: #EDE4DD;
-  height: 50vh;
+  height: auto;
+  display: grid;
+}
+
+.copy-left,
+.copy-right {
+  margin-top: 50px;
+  height: 97vh;
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
@@ -8,10 +15,17 @@ main {
 .copy {
   color: black;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   line-height: 1.8;
-  padding: 60px;
+  padding: 100px;
+}
+
+.copy-header {
+  margin-bottom: 30px;
+  width: 100px;
+  border-bottom: 2px solid #B75F50
 }
 
 .project-picture {
